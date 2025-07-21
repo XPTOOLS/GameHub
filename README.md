@@ -8,7 +8,7 @@
   <table>
     <tr>
       <td align="center">
-        <img src="https://your-image-link.com/image.jpg" width="90px" style="border-radius: 50%;" />
+        <img src="https://envs.sh/PVm.jpg" width="90px" style="border-radius: 50%;" />
       </td>
       <td>
         <img src="https://readme-typing-svg.herokuapp.com?color=00BFFF&width=600&lines=Hey+There,+Welcome+to+XPTOOLS+Games+Bot+%F0%9F%8E%AE" />
@@ -63,8 +63,12 @@ Built using **Pyrogram** and **MongoDB**, the bot is modular, efficient, and tra
 
 Deploy this bot quickly using popular cloud hosting platforms.
 
-[![Deploy to Render](https://img.shields.io/badge/Deploy%20to-Render-00979D?style=for-the-badge&logo=render)](https://render.com/)
-[![Deploy on VPS](https://img.shields.io/badge/Deploy%20on-VPS-orange?style=for-the-badge&logo=linux)](#)
+| Platform            | Link                                                                 |
+|---------------------|----------------------------------------------------------------------|
+| 🔑 Generate Session | <a href="https://t.me/CertifiedSessionBot"><img src="https://img.shields.io/badge/Session%20-Generator-orange?style=for-the-badge&logo=heroku" /></a> |
+| 🌍 Heroku Deploy     | <a href="http://dashboard.heroku.com/new?template=https://github.com/XPTOOLS/GameHub"><img src="https://img.shields.io/badge/Deploy%20to-Heroku-purple?style=for-the-badge&logo=heroku" /></a> |
+| ⚡ Render Deploy     | <a href="https://render.com/deploy?repo=https://github.com/XPTOOLS/GameHub"><img src="https://img.shields.io/badge/Deploy%20to-Render-blue?style=for-the-badge&logo=render" /></a> |
+| ☁️ Koyeb Deploy      | <a href="https://app.koyeb.com/deploy?type=git&repository=github.com/XPTOOLS/GameHub"><img src="https://img.shields.io/badge/Deploy%20to-Koyeb-green?style=for-the-badge&logo=koyeb" /></a> |
 
 ---
 
