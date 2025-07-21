@@ -28,7 +28,7 @@
 
 <p align="center">
   <a href="https://t.me/Freenethubz">
-    <img src="https://telegra.ph/file/58afe55fee5ae99d6901b.jpg" width="600">
+    <img src="https://envs.sh/PVm.jpg" width="600">
   </a>
 </p>
 
@@ -65,7 +65,6 @@ Deploy this bot quickly using popular cloud hosting platforms.
 
 | Platform            | Link                                                                 |
 |---------------------|----------------------------------------------------------------------|
-| 🔑 Generate Session | <a href="https://t.me/CertifiedSessionBot"><img src="https://img.shields.io/badge/Session%20-Generator-orange?style=for-the-badge&logo=heroku" /></a> |
 | 🌍 Heroku Deploy     | <a href="http://dashboard.heroku.com/new?template=https://github.com/XPTOOLS/GameHub"><img src="https://img.shields.io/badge/Deploy%20to-Heroku-purple?style=for-the-badge&logo=heroku" /></a> |
 | ⚡ Render Deploy     | <a href="https://render.com/deploy?repo=https://github.com/XPTOOLS/GameHub"><img src="https://img.shields.io/badge/Deploy%20to-Render-blue?style=for-the-badge&logo=render" /></a> |
 | ☁️ Koyeb Deploy      | <a href="https://app.koyeb.com/deploy?type=git&repository=github.com/XPTOOLS/GameHub"><img src="https://img.shields.io/badge/Deploy%20to-Koyeb-green?style=for-the-badge&logo=koyeb" /></a> |
