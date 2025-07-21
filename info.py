@@ -28,12 +28,13 @@ id_pattern = re.compile(r"^-100\d+$")
 BOT_TOKEN = environ.get("BOT_TOKEN", "")  # Replace with your actual Bot Token
 API_ID = int(environ.get("API_ID", ""))  # Replace with your actual API ID
 API_HASH = environ.get("API_HASH", "")  # Replace with your actual API Hash
+RENDER_EXTERNAL_HOSTNAME = environ.get("RENDER_EXTERNAL_HOSTNAME", "")
 
 #========== 👑 Admin IDs (multiple space-separated IDs) ==========#
 id_pattern = re.compile(r'^.\d+$')
 
 ADMINS = [int(admin) if id_pattern.search(admin) else admin
-          for admin in environ.get('ADMINS', '5962658076').split()] # Replace with your actual admin user IDs
+          for admin in environ.get('ADMINS', '').split()] # Replace with your actual admin user IDs
 
 
 # ========== 🌐 Force Join Channel ==========
