@@ -34,23 +34,11 @@
 
 ---
 
-<!-- 🛠 Stylish Badge Layout -->
-<p align="center">
-  <a href="https://t.me/Freenethubz"><img src="https://img.shields.io/badge/Telegram-Channel-blue?style=for-the-badge&logo=telegram" /></a>
-  <a href="https://youtube.com/@Freenethubtech"><img src="https://img.shields.io/badge/YouTube-Subscribe-red?style=for-the-badge&logo=youtube" /></a>
-  <a href="https://chat.whatsapp.com/Iwau9IDlCn4CR6fsmI3mc7"><img src="https://img.shields.io/badge/WhatsApp-Group-green?style=for-the-badge&logo=whatsapp" /></a>
-  <a href="https://whatsapp.com/channel/0029VbB3G3BH5JM0s7gtKA2d"><img src="https://img.shields.io/badge/WhatsApp-Channel-green?style=for-the-badge&logo=whatsapp" /></a>
-  <a href="https://t.me/Silando"><img src="https://img.shields.io/badge/Admin-Contact-red?style=for-the-badge&logo=telegram" /></a>
-  <a href="https://github.com/XPTOOLS"><img src="https://img.shields.io/badge/GitHub-XPTOOLS-black?style=for-the-badge&logo=github" /></a>
-  <a href="https://www.instagram.com/silandodev?igsh=MWtlaTB6d251bDN2eQ=="><img src="https://img.shields.io/badge/Instagram-Follow-pink?style=for-the-badge&logo=instagram" /></a>
-  <a href="mailto:freenethubbusiness@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-grey?style=for-the-badge&logo=gmail" /></a>
-</p>
-
----
-
 ## 🎮 What is the Telegram Games Bot?
 
-The **Telegram Games Bot** is an interactive, fun-packed bot created by **XPTOOLS** that lets users play exciting games right inside Telegram. It features a clean and modular design, built with **Pyrogram** and integrated with **MongoDB** for leaderboard and user tracking.
+The **Telegram Games Bot** is an advanced bot created by **XPTOOLS**, allowing users to play multiple fun games like **Tic Tac Toe**, **Rock Paper Scissors**, and **Number Guessing** — all within Telegram!
+
+Built using **Pyrogram** and **MongoDB**, the bot is modular, efficient, and tracks leaderboard stats, user wins, and much more.
 
 ---
 
@@ -71,26 +59,16 @@ The **Telegram Games Bot** is an interactive, fun-packed bot created by **XPTOOL
 
 ---
 
-## 🧠 Command Overview
+## ☁️ Quick Deploy
 
-| Command         | Who Can Use   | Description                         |
-|----------------|---------------|-------------------------------------|
-| `/start`        | All users     | Shows welcome message with buttons. |
-| `/tictactoe`    | All users     | Play Tic Tac Toe vs the bot.        |
-| `/rps`          | All users     | Play Rock Paper Scissors.           |
-| `/guess`        | All users     | Guess the secret number.            |
-| `/games`        | All users     | Shows all available game commands.  |
-| `/profile`      | All users     | View your profile and win stats.    |
-| `/leaderboard`  | All users     | See Top 10 winners leaderboard.     |
-| `/contactus`    | All users     | Get contact/support info.           |
-| `/broadcast`    | Admin only    | Send a message to all users.        |
-| `/stats`        | Admin only    | View total user count.              |
-| `/resetwins`    | Admin only    | Reset all player wins.              |
-| `/adminpanel`   | Admin only    | View all admin commands.            |
+Deploy this bot quickly using popular cloud hosting platforms.
+
+[![Deploy to Render](https://img.shields.io/badge/Deploy%20to-Render-00979D?style=for-the-badge&logo=render)](https://render.com/)
+[![Deploy on VPS](https://img.shields.io/badge/Deploy%20on-VPS-orange?style=for-the-badge&logo=linux)](#)
 
 ---
 
-## 🔐 Deployment Guide
+## 💻 Manual Deployment
 
 <details>
 <summary><b>📥 VPS Installation Steps</b></summary>
@@ -106,7 +84,8 @@ cd Telegram-Games-Bot
 # Step 3 - Install Python requirements
 pip3 install -r requirements.txt
 
-# Step 4 - Configure your .env or info.py for variables
+# Step 4 - Configure your info.py or .env with:
+# BOT_TOKEN, DATABASE_URI, DATABASE_NAME, ADMINS, etc.
 
 # Step 5 - Run the bot
 python3 main.py
@@ -116,18 +95,59 @@ python3 main.py
 
 ---
 
+## 🔐 Commands Overview
+
+| Command         | Who Can Use   | Description                         |
+|----------------|---------------|-------------------------------------|
+| `/start`        | All users     | Shows welcome message and buttons.  |
+| `/tictactoe`    | All users     | Play Tic Tac Toe vs the bot.        |
+| `/rps`          | All users     | Rock Paper Scissors game.           |
+| `/guess`        | All users     | Number guessing game.               |
+| `/games`        | All users     | Shows all available games.          |
+| `/profile`      | All users     | View your game profile and wins.    |
+| `/leaderboard`  | All users     | Top 10 winners of all games.        |
+| `/contactus`    | All users     | Display admin and support info.     |
+| `/broadcast`    | Admin only    | Send message to all users.          |
+| `/stats`        | Admin only    | Show total user count.              |
+| `/resetwins`    | Admin only    | Reset all wins.                     |
+| `/adminpanel`   | Admin only    | Display all admin commands.         |
+
+---
+
+## 👥 Contributors, Stars & Forks
+
+<p align="center">
+  <a href="https://github.com/XPTOOLS/Telegram-Games-Bot/stargazers">
+    <img src="https://img.shields.io/github/stars/XPTOOLS/Telegram-Games-Bot?style=social" alt="Stars" />
+  </a>
+  <a href="https://github.com/XPTOOLS/Telegram-Games-Bot/network/members">
+    <img src="https://img.shields.io/github/forks/XPTOOLS/Telegram-Games-Bot?style=social" alt="Forks" />
+  </a>
+  <a href="https://github.com/XPTOOLS/Telegram-Games-Bot/graphs/contributors">
+    <img src="https://img.shields.io/github/contributors/XPTOOLS/Telegram-Games-Bot?style=social" alt="Contributors" />
+  </a>
+</p>
+
+---
+
 ## 💬 Community & Support
 
-Need help or want to collaborate?
+<p align="center">
+  <a href="https://t.me/Freenethubz">
+    <img src="https://telegra.ph/file/58afe55fee5ae99d6901b.jpg" width="300">
+  </a>
+</p>
 
-- 🔹 Telegram Channel: [Freenethubz](https://t.me/Freenethubz)
-- 🔹 Telegram Admin: [Silando](https://t.me/Silando)
-- 🔹 WhatsApp Group: [Click to Join](https://chat.whatsapp.com/Iwau9IDlCn4CR6fsmI3mc7)
-- 🔹 WhatsApp Channel: [Click Here](https://whatsapp.com/channel/0029VbB3G3BH5JM0s7gtKA2d)
-- 🔹 YouTube: [Freenethub Tech](https://youtube.com/@Freenethubtech)
-- 🔹 GitHub: [XPTOOLS](https://github.com/XPTOOLS)
-- 🔹 Instagram: [Silando Dev](https://www.instagram.com/silandodev?igsh=MWtlaTB6d251bDN2eQ==)
-- 📧 Email: freenethubbusiness@gmail.com
+<p align="center">
+  <a href="https://t.me/Freenethubz"><img src="https://img.shields.io/badge/Telegram-Channel-blue?style=for-the-badge&logo=telegram" /></a>
+  <a href="https://youtube.com/@Freenethubtech"><img src="https://img.shields.io/badge/YouTube-Subscribe-red?style=for-the-badge&logo=youtube" /></a>
+  <a href="https://chat.whatsapp.com/Iwau9IDlCn4CR6fsmI3mc7"><img src="https://img.shields.io/badge/WhatsApp-Group-green?style=for-the-badge&logo=whatsapp" /></a>
+  <a href="https://whatsapp.com/channel/0029VbB3G3BH5JM0s7gtKA2d"><img src="https://img.shields.io/badge/WhatsApp-Channel-green?style=for-the-badge&logo=whatsapp" /></a>
+  <a href="https://t.me/Silando"><img src="https://img.shields.io/badge/Admin-Contact-red?style=for-the-badge&logo=telegram" /></a>
+  <a href="https://github.com/XPTOOLS"><img src="https://img.shields.io/badge/GitHub-XPTOOLS-black?style=for-the-badge&logo=github" /></a>
+  <a href="https://www.instagram.com/silandodev?igsh=MWtlaTB6d251bDN2eQ=="><img src="https://img.shields.io/badge/Instagram-Follow-pink?style=for-the-badge&logo=instagram" /></a>
+  <a href="mailto:freenethubbusiness@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-grey?style=for-the-badge&logo=gmail" /></a>
+</p>
 
 ---
 
@@ -135,4 +155,4 @@ Need help or want to collaborate?
   <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" />
 </p>
 
-<b>Made with 🎮 by <a href="https://github.com/XPTOOLS">XPTOOLS</a></b>
+<h3 align="center">Made with ❤️ by <a href="https://github.com/XPTOOLS">XPTOOLS</a></h3>
