@@ -25,9 +25,9 @@ import re
 id_pattern = re.compile(r"^-100\d+$")
 
 # ========== 🔐 Bot Token & API Config ==========
-BOT_TOKEN = environ.get("BOT_TOKEN", "7811309623:AAH9M9P46vDaUAz8oKznyXS4qYXUnLmoNQA")  # Replace with your actual Bot Token
-API_ID = int(environ.get("API_ID", "25753873"))  # Replace with your actual API ID
-API_HASH = environ.get("API_HASH", "3a5cdc2079cd76af80586102bd9761e2")  # Replace with your actual API Hash
+BOT_TOKEN = environ.get("BOT_TOKEN", "")  # Replace with your actual Bot Token
+API_ID = int(environ.get("API_ID", ""))  # Replace with your actual API ID
+API_HASH = environ.get("API_HASH", "")  # Replace with your actual API Hash
 
 #========== 👑 Admin IDs (multiple space-separated IDs) ==========#
 id_pattern = re.compile(r'^.\d+$')
@@ -57,7 +57,7 @@ PICS = (environ.get('PICS', 'https://i.ibb.co/R4VNFg0B/game-logo.jpg')).split()
 # ========== 🧠 MongoDB Config ==========
 DATABASE_URI = environ.get(
     'DATABASE_URI',
-    'mongodb+srv://anonymousguywas:12345Trials@cluster0.t4nmrtp.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'
+    ''
 )
 
 DATABASE_NAME = environ.get('DATABASE_NAME', 'GameBotDB')
