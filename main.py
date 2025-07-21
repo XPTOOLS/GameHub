@@ -1,3 +1,21 @@
+"""
+XPTOOLS - A Telegram Bot
+Copyright (c) 2025
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the MIT License.
+
+Credits & Social Media:
+- Telegram: https://t.me/Freenethubz
+- Youtube: https://youtube.com/@Freenethubtech
+- Whatsapp Channel: https://whatsapp.com/channel/0029VbB3G3BH5JM0s7gtKA2d
+- Whatsapp Group: https://chat.whatsapp.com/Iwau9IDlCn4CR6fsmI3mc7
+- Admin: https://t.me/Silando
+- Github: https://github.com/XPTOOLS
+- Instagram: https://www.instagram.com/silandodev?igsh=MWtlaTB6d251bDN2eQ==
+- Email: freenethubbusiness@gmail.com
+"""
+
 # main.py
 
 from pyrogram import Client, filters, enums
