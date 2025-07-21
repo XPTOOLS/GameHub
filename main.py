@@ -221,11 +221,7 @@ async def main():
     if os.environ.get('RENDER_EXTERNAL_HOSTNAME'):
         print("🌐 Running in webhook mode...")
         await app.start()
-        await app.set_webhook(
-            url=WEBHOOK_URL,
-            drop_pending_updates=True,
-            allowed_updates=["message", "callback_query"]
-        )
+        # Do NOT call set_webhook here; set it via BotFather or Render dashboard
         server = web.Application()
         server.router.add_post(WEBHOOK_PATH, handle_webhook)
         server.router.add_get('/', health_check)
