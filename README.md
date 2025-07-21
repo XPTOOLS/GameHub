@@ -81,8 +81,8 @@ Deploy this bot quickly using popular cloud hosting platforms.
 sudo apt update && sudo apt install git python3-pip -y
 
 # Step 2 - Clone the repo
-git clone https://github.com/XPTOOLS/Telegram-Games-Bot
-cd Telegram-Games-Bot
+git clone https://github.com/XPTOOLS/GameHub
+cd GameHub
 
 # Step 3 - Install Python requirements
 pip3 install -r requirements.txt
@@ -137,7 +137,7 @@ python3 main.py
 
 <p align="center">
   <a href="https://t.me/Freenethubz">
-    <img src="https://telegra.ph/file/58afe55fee5ae99d6901b.jpg" width="300">
+    <img src="https://envs.sh/PxD.jpg" width="300">
   </a>
 </p>
 
