@@ -23,7 +23,7 @@
 </p>
 
 <h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?color=FF69B4&width=500&lines=Telegram+Games+Bot;XPTOOLS+Project+by+Silando" />
+  <img src="https://readme-typing-svg.herokuapp.com?color=FF69B4&width=500&lines=Telegram+Games+Bot;XPTOOLS+Project+by+FreenetHubz" />
 </h1>
 
 <p align="center">
