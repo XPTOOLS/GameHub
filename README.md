@@ -68,7 +68,7 @@ Deploy this bot quickly using popular cloud hosting platforms.
 | 🌍 Heroku Deploy     | <a href="http://dashboard.heroku.com/new?template=https://github.com/XPTOOLS/GameHub"><img src="https://img.shields.io/badge/Deploy%20to-Heroku-purple?style=for-the-badge&logo=heroku" /></a> |
 | ⚡ Render Deploy     | <a href="https://render.com/deploy?repo=https://github.com/XPTOOLS/GameHub"><img src="https://img.shields.io/badge/Deploy%20to-Render-blue?style=for-the-badge&logo=render" /></a> |
 | ☁️ Koyeb Deploy      | <a href="https://app.koyeb.com/deploy?type=git&repository=github.com/XPTOOLS/GameHub"><img src="https://img.shields.io/badge/Deploy%20to-Koyeb-green?style=for-the-badge&logo=koyeb" /></a> |
-| 💻 Replit Deploy     | <a href="https://replit.com/github/XPTOOLS/GameHub"><img src="https://img.shields.io/badge/Run%20on-Replit-black?style=for-the-badge&logo=replit" /></a> |
+| 💻 Replit Deploy     | <a href="https://replit.com/github/XPTOOLS/GameHub"><img src="https://img.shields.io/badge/Deploy%20to-Replit-black?style=for-the-badge&logo=replit" /></a> |
 
 
 ---
